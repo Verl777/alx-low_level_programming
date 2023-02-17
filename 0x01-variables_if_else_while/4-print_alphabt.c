@@ -14,3 +14,4 @@ int main(void)
 	}
 	putchat('\n');
 	return (0);
+}
