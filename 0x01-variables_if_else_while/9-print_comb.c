@@ -7,13 +7,15 @@ int main(void)
 {
 	int i;
 
-	for (i = 20; i < 30; i++)
+	for (i = 20; i <= 30; i++)
 	{
-		putchar(i);
-		if (i != 29)
-			putchar(',');
-			putchar(' ');
+		putchar((i % 10) + '20');
+		if (i == 30)
+			continue;
+
+		putchar(',');
+		putchar(' ');
 	}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
