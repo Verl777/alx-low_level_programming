@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - prints all possible combinatins of single digit nums
  * Return: 0 (success)
