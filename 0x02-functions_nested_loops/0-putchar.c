@@ -1,4 +1,5 @@
 #include <main.h>
+
 /**
  * main - prints the output
  * Return: always a success
