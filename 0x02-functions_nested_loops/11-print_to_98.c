@@ -18,7 +18,7 @@ void print_to_98(int n)
 			}
 			else
 			{
-				_putchar(' ', n);
+				_putchar(n);
 			}
 		}
 	}
@@ -34,7 +34,7 @@ void print_to_98(int n)
 			}
 			else
 			{
-				_putchar(' ', n);
+				_putchar(n);
 			}
 		}
 	}
