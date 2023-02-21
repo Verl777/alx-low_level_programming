@@ -1,9 +1,9 @@
-#include <unistd.h>
+#include <main.h>
 /**
  * main - prints the output
- * Return: always 0
+ * Return: always a success
  */
-int _putchar(char c)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
