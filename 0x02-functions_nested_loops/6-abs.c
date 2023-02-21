@@ -10,7 +10,7 @@ int _abs(int x)
 	{
 		int absolute_value;
 
-		absolute value = x * -1;
+		absolute_value = x * -1;
 
 		return (absolute_value);
 	}
