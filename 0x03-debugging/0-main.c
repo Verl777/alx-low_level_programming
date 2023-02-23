@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 /**
  * main - Prints whether a number stored is positive or negatine
  * Return: success
