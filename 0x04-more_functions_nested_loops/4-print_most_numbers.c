@@ -3,23 +3,24 @@
 /**
  * print_most_numbers - checks for checks for a digit (0 through 9).
  *
- * Return: Always 0.
+ * Return: sucess
  */
+
 void print_most_numbers(void)
 {
-	int c;
+	int x;
 
-	for (c = 0; c < 10; c++)
+	for (x = 0; x <= 9; x++)
 	{
-		if (c == 2 || c == 4)
+		if (x == 2 || x == 4)
 		{
 			continue;
 		}
 		else
 		{
-			_putchar(c + '0');
+			_putchar(x + '0');
 		}
 	}
+
 	_putchar('\n');
 }
-
