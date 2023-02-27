@@ -1,4 +1,4 @@
-#include "nain.h"
+#include "main.h"
 
 /**
  * swap_int - swaps value of two ints
