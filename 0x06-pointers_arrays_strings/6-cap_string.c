@@ -3,7 +3,8 @@
 /**
  * cap_string - capitalizea all words of string
  * @str: string to be capitalized
- * Return: catitalized strings
+ *
+ * Return: pointer changed string
  */
 
 char *cap_string(char *str)
